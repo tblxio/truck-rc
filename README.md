@@ -13,7 +13,8 @@
 # Plug&Play Guide for tb.lx'ers
 ![Flowchart](/Img/FlowChart.jpg)
 
-    If the camera does not open because of permission issues, just open in a new browser tab '192.168.13.106:8000'
+    If the camera does not open because of permission issues, just open in a new browser tab 
+    '192.168.13.106:8000'
     Or the same with a different IP outside of woods.
 
 # Requirements
