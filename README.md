@@ -44,10 +44,9 @@
                 - http
             - make sure the mosquitto mqtt broker is set up and running
             - place the Truck-RC-RasPi folder on the RP in a directory of your choice and execute the 
-            main.py in the mentioned folder -> find the ip-address of your mqtt broker and update it 
-            in the config file 
+            main.py in the mentioned folder
             -> everything should be running, nice!
-            (If you want, you can call the main.py at startup with your method of choice (e.g. .bashrc).)
+            (If you want, you can call the main.py at startup with your method of choice (e.g. corntab).)
             (a connection via VNC/Viewer will also be helpful if you want to work on the PR in a 
             comfortable way)
         
@@ -56,8 +55,7 @@
             - Turn on the RP
             -> Done
             (in a new Network you will have to connect the RP to a Screen in order to establish the 
-            necessary network connection in the usual way. You will also have to update the IP Adress 
-            of the Mqtt-Broker in the Config File)
+            necessary network connection in the usual way.)
             
     2. On your machine:
         - if the RP, Arduino and the Sbrick are set up and running, furthermore all necessary libraries 

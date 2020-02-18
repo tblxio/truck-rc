@@ -100,10 +100,6 @@ def on_message(client, userdata, msg):
     pickle.dump(Proximity_2_dist, open("Proximity2.p", "wb"))
     open("Proximity1.p", 'a').close()
     open("Proximity2.p", 'a').close()
-    #clear()
-    #print(Proximity_1_values)
-    #print(Proximity_2_values)
-
 
 client = mqtt.Client()
 client.connect(config.mqttBroker, 1883, 60)
