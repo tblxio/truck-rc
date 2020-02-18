@@ -1,16 +1,14 @@
 import multiprocessing
 import os
 
+print("main.py launched")
 
 def execute(process):
     os.system(f'python3 {process}')
 
 
-dirname = os.path.dirname(__file__)
-
-all_processes = (
-    dirname + '/UpDown.py', dirname + '/GUI.py', dirname + '/ProximityVisualisation.py', dirname + '/GetDistance.py')
-IPselect = dirname + '/IPselect.py'
+all_processes = ('./UpDown.py', './GUI.py', './ProximityVisualisation.py', './GetDistance.py')
+IPselect = './IPselect.py'
 
 execute(IPselect)
 process_pool = multiprocessing.Pool(processes=4)

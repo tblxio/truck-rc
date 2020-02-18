@@ -11,6 +11,7 @@ import json
 import webbrowser
 from config import configuration as config
 
+print("GUI.py launched")
 x = 0
 y = 0
 magnitude = 0
@@ -48,8 +49,8 @@ class DemoApp(App):
         angle = str(joystick.angle)[0:5]
         text = "x: {}\ny: {}\nradians: {}\nmagnitude: {}\nangle: {}"
         self.label.text = text.format(x, y, radians, magnitude, angle)
-        clear()
-        print(text.format(x, y, radians, magnitude, angle))
+        #clear()
+        #print(text.format(x, y, radians, magnitude, angle))
 
     def my_callback(dt):
         global y

@@ -1,8 +1,15 @@
 import os
 
+print("install.py launched")
+print("Installation of Tkinter launched")
 os.system(f'sudo pip3 install tk')
+print("Installation of Paho-Mqtt launched")
 os.system(f'sudo pip3 install paho-mqtt')
+print("Installation of Kivy launched")
 os.system(f'sudo pip3 install kivy')
+print("Cloning Kivy Garden Repository")
 os.system(f'sudo git clone https://github.com/kivy-garden/garden.git')
-#os.system(f'python3 -m pip install https://github.com/kivy-garden/graph/archive/master.zip')
+print("Cloning Kivy Garden Joystick Repository")
 os.system(f'sudo git clone https://github.com/kivy-garden/garden.joystick.git')
+print("Installation of Kivy Garden Joystick launched")
+os.system(f'garden install joystick')

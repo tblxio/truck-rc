@@ -1,6 +1,7 @@
 import tkinter as tk
 import pickle
 
+print("ProximityVisualisation.py launched")
 
 def update():
     try:

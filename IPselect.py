@@ -1,6 +1,8 @@
 import os
 import tkinter as tk
 
+print("IPselect.py launched")
+
 dirname = os.path.dirname(__file__)
 IP = open(dirname + '/config/ip.txt', 'r')
 oldIP = str(IP.readlines())  # 192.168.13.106

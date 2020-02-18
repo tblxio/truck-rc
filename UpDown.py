@@ -3,6 +3,8 @@ import controllerMessages as messages
 import tkinter as tk
 import json
 
+print("UpDown.py launched")
+
 drive_topic = "sbrick/01/sp/drive"
 my_client = MqttClient()
 my_client.setup_client()

@@ -26,5 +26,5 @@ class MqttClient(mqtt.Client):
     #  in mqttconfig.py
     def setup_client(self):
         self.username_pw_set(config.mqttUser, password=config.mqttPasswd)
-        self.connect(config.mqttBroker, config.mqttPort, 60)
+        self.connect(config.mqttBroker, int(config.mqttPort), 60)
         self.loop_start()

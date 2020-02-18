@@ -6,6 +6,8 @@ from config import configuration as config
 
 clear = lambda: os.system('clear')
 
+print("GetDistance.py launched")
+
 # define variables
 Proximity_1_values = ["150", "150", "150", "150", "150", "150", "150", "150", "150", "150"]
 Proximity_1_value = 0
@@ -98,9 +100,9 @@ def on_message(client, userdata, msg):
     pickle.dump(Proximity_2_dist, open("Proximity2.p", "wb"))
     open("Proximity1.p", 'a').close()
     open("Proximity2.p", 'a').close()
-    clear()
-    print(Proximity_1_values)
-    print(Proximity_2_values)
+    #clear()
+    #print(Proximity_1_values)
+    #print(Proximity_2_values)
 
 
 client = mqtt.Client()
