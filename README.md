@@ -19,12 +19,11 @@
 
 # Requirements
     a variety of different libraries is used to receive, save, process, transmit and visualise the data.
-    The used libraries will be listed here. You can install them on your own for Python3 or just execute 
-    the install.py script.
+    The used libraries will be listed here.
         - paho mqtt
         - kivy
         - kivy garden
-        - kivy garden joystick (https://github.com/kivy-garden/garden.joystick)
+        - kivy garden joystick (https://github.com/kivy-garden/garden.joystick) + 'garden install joystick'
         - tkinter
     all other libraries should be installed by default.
 
