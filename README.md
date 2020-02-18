@@ -13,6 +13,9 @@
 # Plug&Play Guide for tb.lx'ers
 ![Flowchart](/Img/FlowChart.jpg)
 
+    If the camera does not open because of permission issues, just open in a new browser tab '192.168.13.106:8000'
+    Or the same with a different IP outside of woods.
+
 # Requirements
     a variety of different libraries is used to receive, save, process, transmit and visualise the data.
     The used libraries will be listed here. You can install them on your own for Python3 or just execute 
@@ -64,6 +67,3 @@
         - Execute the main.py in the top directory
     
     -> DONE
-
-# Documentation
-    For further Documentation about the individual scrips look into the "Documentation" folder
