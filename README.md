@@ -11,7 +11,7 @@
     and steer commands.
     
 # Plug&Play Guide for tb.lx'ers
-    ![Flowchart](/Img/FlowChart.jpg)
+![Flowchart](/Img/FlowChart.jpg)
 
 # Requirements
     a variety of different libraries is used to receive, save, process, transmit and visualise the data.
