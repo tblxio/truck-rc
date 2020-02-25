@@ -10,7 +10,7 @@ rootTopic = "truck1"
 mqttPort = "1883"
 
 mqttUser = "techhub"
-mqttPasswd = "dtbhub2019"
+mqttPasswd = ""
 
 IP = open(dirname+'/ip.txt','r')
 mqttBroker = str(IP.readlines())  # 192.168.13.106
