@@ -8,4 +8,4 @@ paho-mqtt==1.5.0
 Pygments==2.7.4
 requests==2.22.0
 tk==0.1.0
-urllib3==1.25.8
+urllib3==1.26.5
